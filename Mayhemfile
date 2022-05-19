@@ -1,0 +1,8 @@
+project: rnshah9/libpff
+target: libpff
+image: ghcr.io/rnshah9/playground:libpff
+tests:
+  - file://tests/data
+
+cmds:
+  - cmd: /usr/local/bin/pffinfo @@
