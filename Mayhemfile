@@ -1,6 +1,5 @@
 project: rnshah9/libpff
-target: libpff
-image: ghcr.io/rnshah9/playground:libpff
+target: pffinfo
 tests:
   - file://tests/data
 
