@@ -1,6 +1,6 @@
-project: rnshah9/libpff
+project: libpff
 target: pffinfo
-tests:
+testsuite:
   - file://tests/data
 
 cmds:
